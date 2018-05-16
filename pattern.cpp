@@ -79,8 +79,6 @@ int main(int argc, char *argv[]) {
         return d(generator);
     };
 
-    std::cout << a <<" "<< b <<" "<< c <<" "<< d << std::endl;
-    system("PAUSE");
     while(true) {
         system("CLS");
         a = generar_entre(2,18);
